@@ -157,6 +157,28 @@
         </section>
 
         <section>
+            <pre><code class="html">
+
+                
+                <ion-split-pane>
+                <!--  our side menu  -->
+                <ion-menu [content]="content">
+                    <ion-header>
+                    <ion-toolbar>
+                        <ion-title>Menu</ion-title>
+                    </ion-toolbar>
+                    </ion-header>
+                </ion-menu>
+
+                <!-- the main content -->
+                <ion-nav [root]="root" main #content></ion-nav>
+                </ion-split-pane>
+                
+
+            </code></pre>
+        </section>
+
+        <section>
             <h2><code style="font-size:60px">&lt;/html&gt;</code></h2>
             <h3>
                 <a href="https://github.com/ricardo-mello" target="_blank" style="text-transform: lowercase">
